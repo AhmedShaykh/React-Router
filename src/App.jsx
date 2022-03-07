@@ -1,12 +1,11 @@
 import React from 'react';
+import Routing from './Route';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>
-        Learn React Router
-      </h1>
+    <div className='App'>
+      <Routing />
     </div>
   );
 }
