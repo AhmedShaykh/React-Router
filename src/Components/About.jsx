@@ -4,7 +4,7 @@ function About() {
     return (
         <div>
             <h1>
-                Welcome To About
+                Welcome To About Page
             </h1>
         </div>
     )

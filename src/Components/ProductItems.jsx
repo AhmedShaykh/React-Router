@@ -4,7 +4,7 @@ function ProductItems() {
     return (
         <div>
             <h1>
-                Welcome To Product Items
+                Welcome To Product Items Page
             </h1>
         </div>
     )
