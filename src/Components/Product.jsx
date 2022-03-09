@@ -9,19 +9,19 @@ function Product() {
             <h1>
                 Welcome To Product Page
             </h1>
-            <div>
+            <div className='product'>
                 {Object.keys(Shoes).map(keyName => {
                     const shoe = Shoes[keyName];
                     return (
                         <div key={keyName}>
-                            <h1>
-                                {keyName}
-                            </h1>
                             <h2>
-                                {shoe.name}
+                                {keyName}
                             </h2>
+                            <h4>
+                                {shoe.name}
+                            </h4>
                             <img src={shoe.img} height={300}
-                            alt='shoe' />
+                                alt='shoe' />
                         </div>
                     )
                 })}
