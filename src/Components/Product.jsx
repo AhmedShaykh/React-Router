@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Shoes from './../Shoes.json';
 
 function Product() {
@@ -13,7 +14,7 @@ function Product() {
                 {Object.keys(Shoes).map(keyName => {
                     const shoe = Shoes[keyName];
                     return (
-                        <div key={keyName}>
+                        <Link key={keyName} className="link" to={`/product/${keyName}`}>
                             <h2>
                                 {keyName}
                             </h2>
@@ -22,7 +23,7 @@ function Product() {
                             </h4>
                             <img src={shoe.img} height={300}
                                 alt='shoe' />
-                        </div>
+                        </Link>
                     )
                 })}
             </div>
