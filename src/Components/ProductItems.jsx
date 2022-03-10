@@ -20,7 +20,7 @@ function ProductItems() {
                     {shoe.name}
                 </h2>
                 <img src={shoe.img} height={700}
-                    alt='shoe' />
+                    alt="Shoe Image" />
             </div>
         </div>
     )

@@ -22,7 +22,7 @@ function Product() {
                                 {shoe.name}
                             </h4>
                             <img src={shoe.img} height={300}
-                                alt='shoe' />
+                                alt="Shoe Image" />
                         </Link>
                     )
                 })}
