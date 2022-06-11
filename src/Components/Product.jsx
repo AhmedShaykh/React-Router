@@ -15,9 +15,9 @@ function Product() {
                     const shoe = Shoes[keyName];
                     return (
                         <Link key={keyName} className="link" to={`/product/${keyName}`}>
-                            <h2>
+                            <h1>
                                 {keyName}
-                            </h2>
+                            </h1>
                             <h4>
                                 {shoe.name}
                             </h4>
