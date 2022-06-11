@@ -16,7 +16,7 @@ function Routing() {
         <BrowserRouter>
             <NavBar />
             <Routes>
-                <Route index element={<Home />} />
+                <Route index path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/product" element={<Product />} />
                 <Route path="/product/:id" element={<ProductItems />} />
