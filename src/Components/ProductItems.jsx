@@ -9,7 +9,7 @@ function ProductItems() {
     const shoe = Shoes[id];
     if (!shoe)
         return <h2>Product Not Found!</h2>
-    console.log(shoe)
+        console.log(shoe)
     return (
         <div>
             <h1>

@@ -12,7 +12,7 @@ function Product() {
             </h1>
             <div className='product'>
                 {Object.keys(Shoes).map(keyName => {
-                    const shoe = Shoes[keyName];
+                    const shoe = Shoes[keyName]; // Shoes[keyName].value
                     return (
                         <Link key={keyName} className="link" to={`/product/${keyName}`}>
                             <h1>
